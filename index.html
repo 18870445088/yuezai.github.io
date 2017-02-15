@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #box1{
+            width:100px;
+            height:100px;
+            background:pink;
+            display:none;
+        }
+        #box2{
+            width:100px;
+            height:100px;
+            background:pink;
+            margin-top:10px;
+            display: none;
+        }
+        #box3{
+            width:100px;
+            height:100px;
+            background:pink;
+            margin-top:10px;
+            display: none;
+        }
+        #box4{
+            width:100px;
+            height:100px;
+            background:pink;
+            margin-top:10px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <button id="btn">第一个按钮</button>
+    <button id="btn1">第二个按钮</button>
+    <button id="btn2">第三个按钮</button>
+    <button id="btn3">第四个按钮</button>
+    <div id="box1"><strong>1</strong></strong></div>
+    <div id="box2"><strong>2</strong></strong></div>
+    <div id="box3"><strong>3</strong></strong></div>
+    <div id="box4"><strong>4</strong></strong></div>
+    <script>
+        var box1=document.getElementById("box1");
+        var b=document.getElementById("btn");
+        b.onclick= function () {
+            box1.style.display="block";
+        }
+        var box2=document.getElementById("box2");
+        var b1=document.getElementById("btn1");
+        b1.onclick= function () {
+            box2.style.display="block";
+        }
+        var box3=document.getElementById("box3");
+        var b2=document.getElementById("btn2");
+        b2.onclick= function () {
+            box3.style.display="block";
+        }
+        var box4=document.getElementById("box4");
+        var b3=document.getElementById("btn3");
+        b3.onclick= function () {
+            box4.style.display="block";
+        }
+    </script>
+</body>
+</html>
